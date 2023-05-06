@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
-import logo from "../../public/img/logo.svg";
+import logo from "../assets/img/logo.svg";
 import "../styles/index.css";
 import Menu from "./Menu/Menu";
 
 function Header() {
   return (
-    <div className="bg-white w-full flex justify-between rounded-lg">
+    <div className="bg-white m-auto w-full flex justify-between rounded-lg">
       <div className="flex">
         <div className="my-5 mx-10">
           <img src={logo} alt="" className="logo w-52 h-12" />
@@ -13,7 +13,7 @@ function Header() {
       </div>
       <div className="menu m-auto text-xl">
         <div className="mx-6">
-          <ul className="flex flex-row gap-10 font-medium">
+          <ul className="flex flex-row gap-10 font-medium items-center">
             <li>
               <a href="#" className="hover:text-orange-400">Home</a>
             </li>
@@ -22,8 +22,8 @@ function Header() {
             </li>
             <li>
               <a href="#" className="hover:text-orange-400">Service</a>
-              <ul>
-                <li className="flex relative top-11 justify-center items-center bg-orange-500 bg-gradient-to-r from-orange-300 rounded-md border-transparent ">
+              <ul className="relative">
+                <li className="flex absolute top-7 justify-center items-center bg-orange-500 bg-gradient-to-r from-orange-300 rounded-md border-transparent ">
                     <a href="#" className="text-white py-1 px-3">
                         New
                     </a>
