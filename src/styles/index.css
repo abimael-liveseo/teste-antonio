@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-section-hero {
+    background: linear-gradient(108.45deg, #FFDEAD 0.7%, rgba(250, 239, 227, 0) 94.85%);
+}
+
+.bg-btn-started {
+    background: linear-gradient(141.82deg, rgba(70, 67, 211, 0.75) 13.67%, #0500FF 84.68%);
+}
